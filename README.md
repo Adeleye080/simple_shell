@@ -288,5 +288,3 @@ $
 ## Acknowledgements :pray:
 
 **shellex** emulates basic functionality of the **sh** shell. This README borrows form the Linux man pages [sh(1)](https://linux.die.net/man/1/sh) and [dash(1)](https://linux.die.net/man/1/dash).
-
-This project was written as part of the curriculum of the ALX-SE programme.
