@@ -1,6 +1,6 @@
 # **Shellex** - Simple Shell :shell:
 
-A simple UNIX command interpreter written as part of the low-level programming and algorithm track at ALX.
+A simple UNIX command interpreter.
 
 ## Description :speech_balloon:
 
@@ -62,7 +62,7 @@ The current working directory as set by the **cd** command.
 
 ```
 $ echo "echo $PWD" | ./shellex
-/home/vagrant/ALX/simple_shell
+/home/simple_shell
 ```
 
 #### OLDPWD
@@ -70,7 +70,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./shellex
-/home/vagrant/ALX/printf
+/home/printf
 ```
 
 #### PATH
@@ -118,7 +118,7 @@ $
 Example:
 ```
 $ echo "echo $PWD" | ./shellex
-/home/vagrant/ALX/simple_shell
+/home/simple_shell
 ```
 
 #### $?
@@ -201,13 +201,13 @@ Example:
 ```
 $ ./shellex
 $ pwd
-/home/vagrant/ALX/simple_shell
+/home/simple_shell
 $ cd ../
 $ pwd
-/home/vagrant/ALX
+/home/
 $ cd -
 $ pwd
-/home/vagrant/ALX/simple_shell
+/home/simple_shell
 ```
 
 #### alias
